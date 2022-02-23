@@ -1,0 +1,133 @@
+.hero_section {
+	position: relative;
+	background: url('../../assets/HeroBgPattern.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: calc(100vh - 100px);
+	display: flex;
+	gap: 50px;
+
+	.left {
+		width: 55%;
+		height: 100%;
+		position: relative;
+
+		.left_img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			position: absolute;
+			top: 0;
+			left: 0;
+			object-position: bottom right;
+		}
+
+		.available_buttons {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			bottom: 10px;
+			display: flex;
+			gap: 30px;
+
+			button {
+				background: transparent;
+				border: none;
+				outline: none;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.right {
+		width: 45%;
+		position: relative;
+
+		.mobile_img {
+			position: absolute;
+			width: 40%;
+			bottom: -80px;
+		}
+
+		.circle_fill {
+			position: absolute;
+			bottom: -45px;
+			width: 90px;
+			height: 90px;
+			right: 20%;
+		}
+	}
+
+	h1 {
+		position: absolute;
+		top: 20px;
+		width: 100%;
+		text-align: center;
+
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 58px;
+		color: #000000;
+	}
+}
+
+@include tablet-screen {
+	.hero_section {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+
+		.left {
+			width: 100%;
+			height: 50%;
+
+			.available_buttons {
+				position: absolute;
+				bottom: -10px;
+				right: 20px;
+				display: flex;
+				gap: 30px;
+
+				button {
+					background: transparent;
+					border: none;
+					outline: none;
+					cursor: pointer;
+
+					img {
+						width: 100px;
+						height: 30px;
+					}
+				}
+			}
+		}
+
+		.right {
+			width: 100%;
+			height: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.mobile_img {
+				position: static;
+				width: 50%;
+			}
+
+			.circle_fill {
+				bottom: -30px;
+				width: 60px;
+				height: 60px;
+				right: 5%;
+			}
+		}
+
+		h1 {
+			top: 10px;
+			font-size: 30px;
+		}
+	}
+}

@@ -36,7 +36,7 @@
 
 			li {
 				a {
-					font-weight: 300;
+					font-weight: 400;
 					font-size: 14px;
 					text-decoration: none;
 					color: #000000;
@@ -71,6 +71,7 @@
 			padding: 0 20px;
 			color: #ffffff;
 			font-size: 14px;
+			cursor: pointer;
 		}
 	}
 
@@ -93,6 +94,7 @@
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+		z-index: 9;
 
 		ul {
 			padding: 0;
@@ -115,6 +117,7 @@
 					padding: 0 20px;
 					color: #000;
 					font-size: 14px;
+					cursor: pointer;
 				}
 			}
 		}
