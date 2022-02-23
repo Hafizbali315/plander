@@ -1,5 +1,6 @@
 import ProblemSectionImg from '../assets/ProblemSectionImg.png'
 import ProblemSectionBg from '../assets/ProblemSectionBg1.png'
+import CircleFill from '../assets/CircleFill.png'
 
 const ProblemSection = () => {
 	return (
@@ -25,6 +26,10 @@ const ProblemSection = () => {
 				<div className="img_container">
 					<img src={ProblemSectionImg} alt="ProblemSectionImg" />
 				</div>
+			</div>
+
+			<div className="circle_fill">
+				<img src={CircleFill} alt="CircleFill" />
 			</div>
 		</div>
 	)
