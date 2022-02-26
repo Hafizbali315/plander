@@ -2,6 +2,7 @@ import React from 'react'
 import ProblemSection from '../components/ProblemSection'
 import UserHeader from '../components/UserHeader'
 import Solution from './../components/Solution'
+import History from './../components/History'
 
 const LandingPage = () => {
 	return (
@@ -9,6 +10,7 @@ const LandingPage = () => {
 			<UserHeader />
 			<ProblemSection />
 			<Solution />
+			<History />
 		</div>
 	)
 }
