@@ -63,7 +63,7 @@ const UserFaq = () => {
 	}
 
 	return (
-		<div className="faq">
+		<div className="faq" id="faq">
 			<h2>FAQs</h2>
 
 			<div className="container">
