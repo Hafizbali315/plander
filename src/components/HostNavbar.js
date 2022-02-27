@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const UserNavbar = () => {
+const HostNavbar = () => {
 	const [showSmallScreenMenu, setShowSmallScreenMenu] = useState(false)
 
 	return (
@@ -17,25 +17,18 @@ const UserNavbar = () => {
 			<div className="links">
 				<ul>
 					<li>
-						<a href="#home">Home</a>
+						<a href="#host-home">Home</a>
+					</li>
+
+					<li>
+						<a href="#host-work">How it Works </a>
+					</li>
+
+					<li>
+						<a href="#host-benefits">Benefits</a>
 					</li>
 					<li>
-						<a href="#problem">The Problem</a>
-					</li>
-					<li>
-						<a href="#solution">Our Solution </a>
-					</li>
-					<li>
-						<a href="#history">The History of Paladares</a>
-					</li>
-					<li>
-						<a href="#work">How it Works </a>
-					</li>
-					<li>
-						<a href="#benefits">Benefits</a>
-					</li>
-					<li>
-						<a href="#faq">FAQ</a>
+						<a href="#host-faq">FAQ</a>
 					</li>
 					<li>
 						<a href="#subcription">Subscription</a>
@@ -44,8 +37,8 @@ const UserNavbar = () => {
 			</div>
 
 			<div className="right">
-				<Link to="/host">
-					<button>Be a Paladar Host</button>
+				<Link to="/">
+					<button>Main Page</button>
 				</Link>
 			</div>
 
@@ -64,33 +57,26 @@ const UserNavbar = () => {
 				<div className="mobile_sidebar">
 					<ul>
 						<li>
-							<a href="#home">Home</a>
+							<a href="#host-home">Home</a>
+						</li>
+
+						<li>
+							<a href="#host-work">How it Works </a>
+						</li>
+
+						<li>
+							<a href="#host-benefits">Benefits</a>
 						</li>
 						<li>
-							<a href="#problem">The Problem</a>
-						</li>
-						<li>
-							<a href="#solution">Our Solution </a>
-						</li>
-						<li>
-							<a href="#history">The History of Paladares</a>
-						</li>
-						<li>
-							<a href="#work">How it Works </a>
-						</li>
-						<li>
-							<a href="#benefits">Benefits</a>
-						</li>
-						<li>
-							<a href="#faq">FAQ</a>
+							<a href="#host-faq">FAQ</a>
 						</li>
 						<li>
 							<a href="#subcription">Subscription</a>
 						</li>
 
 						<li>
-							<Link to="/host">
-								<button>Be a Paladar Host</button>
+							<Link to="/">
+								<button>Main Page</button>
 							</Link>
 						</li>
 					</ul>
@@ -100,4 +86,4 @@ const UserNavbar = () => {
 	)
 }
 
-export default UserNavbar
+export default HostNavbar

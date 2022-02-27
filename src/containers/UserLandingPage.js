@@ -7,10 +7,11 @@ import HowItWorksUser from './../components/HowItWorksUser'
 import BenefitsUser from '../components/BenefitsUser'
 import UserFaq from '../components/UserFaq'
 import Subscription from './../components/Subscription'
+import Footer from './../components/Footer'
 
-const LandingPage = () => {
+const UserLandingPage = () => {
 	return (
-		<div className="landing_page">
+		<div className="user_landing_page">
 			<UserHeader />
 			<ProblemSection />
 			<Solution />
@@ -19,8 +20,9 @@ const LandingPage = () => {
 			<BenefitsUser />
 			<UserFaq />
 			<Subscription />
+			<Footer />
 		</div>
 	)
 }
 
-export default LandingPage
+export default UserLandingPage
