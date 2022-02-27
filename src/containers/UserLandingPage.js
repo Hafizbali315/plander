@@ -5,6 +5,7 @@ import Solution from './../components/Solution'
 import History from './../components/History'
 import HowItWorksUser from './../components/HowItWorksUser'
 import BenefitsUser from '../components/BenefitsUser'
+import UserFaq from '../components/UserFaq'
 
 const LandingPage = () => {
 	return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
 			<History />
 			<HowItWorksUser />
 			<BenefitsUser />
+			<UserFaq />
 		</div>
 	)
 }
