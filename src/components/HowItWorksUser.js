@@ -21,7 +21,7 @@ import Circle from '../assets/CircleFill.png'
 
 const HowItWorksUser = () => {
 	return (
-		<div className="how_it_works">
+		<div className="how_it_works" id="works">
 			<div className="content">
 				<h2>How it Works</h2>
 				<p>

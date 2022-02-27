@@ -13,7 +13,7 @@ import copyright from '../assets/copyright.svg'
 const Footer = () => {
 	return (
 		<footer>
-			<div className="footer">
+			<div className="footer" id="footer">
 				<div className="pattern">
 					<img className="img" src={footerBg} alt="pattern" />
 				</div>

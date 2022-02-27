@@ -17,7 +17,7 @@ import Circle from '../assets/CircleFill.png'
 
 const HowItWorksHost = () => {
 	return (
-		<div className="how_it_works" id="host_work">
+		<div className="how_it_works" id="works">
 			<div className="content">
 				<h2>How it Works</h2>
 				<p>
@@ -116,7 +116,7 @@ const HowItWorksHost = () => {
 					</div>
 
 					<div className="img_container">
-						<img src={HostRoadmapImg4} alt="HostRoadmapImg4" />
+						<img src={HostRoadmapImg5} alt="HostRoadmapImg5" />
 					</div>
 
 					<div className="count">

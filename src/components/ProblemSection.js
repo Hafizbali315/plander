@@ -4,7 +4,7 @@ import CircleFill from '../assets/CircleFill.png'
 
 const ProblemSection = () => {
 	return (
-		<div className="problem_section">
+		<div className="problem_section" id="problem">
 			<div className="bg">
 				<img src={ProblemSectionBg} alt="ProblemSectionBg" />
 			</div>

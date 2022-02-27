@@ -4,7 +4,7 @@ import Circle from '../assets/CircleFill.png'
 
 const Subscription = () => {
 	return (
-		<div className="subscription">
+		<div className="subscription" id="subscription">
 			<div className="bg">
 				<img src={SubscriptionBg} alt="SubscriptionBg" />
 			</div>

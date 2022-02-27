@@ -1,14 +1,15 @@
 import BenefitsBg from '../assets/BenefitsBg.png'
-import UserBenefitsImg from '../assets/UserBenefitsImg.png'
+import HostBenefitsImg from '../assets/HostBenefitsImg.png'
 
-import UserBenefitImg1 from '../assets/UserBenefitImg1.png'
-import UserBenefitImg2 from '../assets/UserBenefitImg2.png'
-import UserBenefitImg3 from '../assets/UserBenefitImg3.png'
-import UserBenefitImg4 from '../assets/UserBenefitImg4.png'
+import HostBenefitImg1 from '../assets/HostBenefitImg1.png'
+import HostBenefitImg2 from '../assets/HostBenefitImg2.png'
+import HostBenefitImg3 from '../assets/HostBenefitImg3.png'
+import HostBenefitImg4 from '../assets/HostBenefitImg4.png'
 
+import Circle from '../assets/CircleFill.png'
 import Logo3 from '../assets/Logo3.png'
 
-const BenefitsUser = () => {
+const HostBenefits = () => {
 	return (
 		<div className="benefits" id="benefits">
 			<div className="bg">
@@ -17,7 +18,7 @@ const BenefitsUser = () => {
 
 			<div className="row">
 				<div className="img_container">
-					<img src={UserBenefitsImg} alt="UserBenefitsImg" />
+					<img src={HostBenefitsImg} alt="HostBenefitsImg" />
 				</div>
 
 				<div className="content">
@@ -27,7 +28,7 @@ const BenefitsUser = () => {
 						<div className="benefit_col">
 							<div className="icon">
 								<div className="icon_container">
-									<img src={UserBenefitImg1} alt="UserBenefitImg1" />
+									<img src={HostBenefitImg1} alt="HostBenefitImg1" />
 								</div>
 							</div>
 
@@ -37,7 +38,7 @@ const BenefitsUser = () => {
 						<div className="benefit_col">
 							<div className="icon">
 								<div className="icon_container">
-									<img src={UserBenefitImg2} alt="UserBenefitImg2" />
+									<img src={HostBenefitImg2} alt="HostBenefitImg2" />
 								</div>
 							</div>
 
@@ -49,7 +50,7 @@ const BenefitsUser = () => {
 						<div className="benefit_col">
 							<div className="icon">
 								<div className="icon_container">
-									<img src={UserBenefitImg3} alt="UserBenefitImg2" />
+									<img src={HostBenefitImg3} alt="HostBenefitImg2" />
 								</div>
 							</div>
 
@@ -59,7 +60,7 @@ const BenefitsUser = () => {
 						<div className="benefit_col">
 							<div className="icon">
 								<div className="icon_container">
-									<img src={UserBenefitImg4} alt="UserBenefitImg2" />
+									<img src={HostBenefitImg4} alt="HostBenefitImg4" />
 								</div>
 							</div>
 
@@ -72,8 +73,12 @@ const BenefitsUser = () => {
 			<div className="logo">
 				<img src={Logo3} alt="Logo2" />
 			</div>
+
+			<div className="circle">
+				<img src={Circle} alt="circle" />
+			</div>
 		</div>
 	)
 }
 
-export default BenefitsUser
+export default HostBenefits

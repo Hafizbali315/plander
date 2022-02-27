@@ -17,21 +17,21 @@ const HostNavbar = () => {
 			<div className="links">
 				<ul>
 					<li>
-						<a href="#host-home">Home</a>
+						<a href="#home">Home</a>
 					</li>
 
 					<li>
-						<a href="#host-work">How it Works </a>
+						<a href="#works">How it Works </a>
 					</li>
 
 					<li>
-						<a href="#host-benefits">Benefits</a>
+						<a href="#benefits">Benefits</a>
 					</li>
 					<li>
-						<a href="#host-faq">FAQ</a>
+						<a href="#faq">FAQ</a>
 					</li>
 					<li>
-						<a href="#subcription">Subscription</a>
+						<a href="#subscription">Subscription</a>
 					</li>
 				</ul>
 			</div>
@@ -57,21 +57,21 @@ const HostNavbar = () => {
 				<div className="mobile_sidebar">
 					<ul>
 						<li>
-							<a href="#host-home">Home</a>
+							<a href="#home">Home</a>
 						</li>
 
 						<li>
-							<a href="#host-work">How it Works </a>
+							<a href="#works">How it Works </a>
 						</li>
 
 						<li>
-							<a href="#host-benefits">Benefits</a>
+							<a href="#benefits">Benefits</a>
 						</li>
 						<li>
-							<a href="#host-faq">FAQ</a>
+							<a href="#faq">FAQ</a>
 						</li>
 						<li>
-							<a href="#subcription">Subscription</a>
+							<a href="#subscription">Subscription</a>
 						</li>
 
 						<li>

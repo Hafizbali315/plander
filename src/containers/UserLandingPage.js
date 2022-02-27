@@ -4,7 +4,7 @@ import UserHeader from '../components/UserHeader'
 import Solution from './../components/Solution'
 import History from './../components/History'
 import HowItWorksUser from './../components/HowItWorksUser'
-import BenefitsUser from '../components/BenefitsUser'
+import UserBenefits from '../components/UserBenefits'
 import UserFaq from '../components/UserFaq'
 import Subscription from './../components/Subscription'
 import Footer from './../components/Footer'
@@ -17,7 +17,7 @@ const UserLandingPage = () => {
 			<Solution />
 			<History />
 			<HowItWorksUser />
-			<BenefitsUser />
+			<UserBenefits />
 			<UserFaq />
 			<Subscription />
 			<Footer />

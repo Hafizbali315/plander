@@ -29,7 +29,7 @@ const UserNavbar = () => {
 						<a href="#history">The History of Paladares</a>
 					</li>
 					<li>
-						<a href="#work">How it Works </a>
+						<a href="#works">How it Works </a>
 					</li>
 					<li>
 						<a href="#benefits">Benefits</a>
@@ -38,7 +38,7 @@ const UserNavbar = () => {
 						<a href="#faq">FAQ</a>
 					</li>
 					<li>
-						<a href="#subcription">Subscription</a>
+						<a href="#subscription">Subscription</a>
 					</li>
 				</ul>
 			</div>
@@ -76,7 +76,7 @@ const UserNavbar = () => {
 							<a href="#history">The History of Paladares</a>
 						</li>
 						<li>
-							<a href="#work">How it Works </a>
+							<a href="#works">How it Works </a>
 						</li>
 						<li>
 							<a href="#benefits">Benefits</a>
@@ -85,7 +85,7 @@ const UserNavbar = () => {
 							<a href="#faq">FAQ</a>
 						</li>
 						<li>
-							<a href="#subcription">Subscription</a>
+							<a href="#subscription">Subscription</a>
 						</li>
 
 						<li>
