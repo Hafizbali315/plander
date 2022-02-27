@@ -4,6 +4,7 @@ import UserHeader from '../components/UserHeader'
 import Solution from './../components/Solution'
 import History from './../components/History'
 import HowItWorksUser from './../components/HowItWorksUser'
+import BenefitsUser from '../components/BenefitsUser'
 
 const LandingPage = () => {
 	return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
 			<Solution />
 			<History />
 			<HowItWorksUser />
+			<BenefitsUser />
 		</div>
 	)
 }
